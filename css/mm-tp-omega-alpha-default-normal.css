@@ -1,0 +1,178 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. 960-grid */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/**************************************************
+*** Header Section
+**************************************************/
+
+#search-block-form {width: 220px;}
+
+
+/*** main menu ***/
+
+#zone-menu-wrapper {
+  padding-top: 8px;
+  padding-bottom: 3px;
+  height: 22px;
+}
+
+#block-block-12 .ctools-jump-menu-select {display: none;}
+
+.menu-block-2 {display: block;}
+
+.menu-block-2 ul.menu {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+.menu-block-2 li {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 92%;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu-block-2 li a.active,
+.menu-block-2 li a,
+.menu-block-2 li a:hover {padding: 11px 14px 7px 14px;}
+
+/**************************************************
+*** Content Section
+**************************************************/
+
+/*** content ***/
+#zone-content,
+#zone-preface {
+  background-position: center;
+  background-repeat: repeat-y;
+  background-image: url(images/bg-960.png);
+}
+
+.front #zone-content,
+.front #zone-preface,
+#zone-content.no-sidebars {background-image: url(images/bg-960-front.png);}
+
+/*** sidebar ***/
+.region-sidebar-second-inner .menu-mlid-1917 a {margin-top: 64px;}
+.region-sidebar-second-inner .menu-mlid-1926 a {margin-top: 64px;}
+
+
+/**************************************************
+*** Front-page specific
+**************************************************/ 
+
+
+
+
+
+
+/**************************************************
+*** Footer Section
+**************************************************/
+
+#zone-footer .region-footer-second-inner {padding: 5px 0 0 15px;}
+
+#zone-footer p {font-size: 95%;}
+
+#zone-footer .region-footer-second-inner p {line-height: 80%;}
+
+#zone-footer h2 {
+	font-size: 170%;
+	margin-bottom: 5px;
+}
+
+#zone-footer .region-footer-second-inner h2 {margin-bottom: 10px;}
+
+#zone-footer ul.menu li.leaf {
+	font-size: 108%;
+	margin-bottom: 5px;
+}
+
+#block-block-13 {
+	padding-top: 90px;
+	background: url('images/trip_web.png') no-repeat -1px -1px;
+	padding-left: 10px;
+}
+
+#zone-footer h4 {font-size: 120%;}
+
+
+/**************************************************
+*** Content Types
+**************************************************/
+
+/*** section home page and basic page ***/
+.feature-block {width: 30%;}
+
+/***cabs route page ***/
+.cabs-route-grid-header table {width: 655px; font-size: 125%;}
+.cabs-route-grid-header table td {padding: 10px 0;}
+.cabs-route-grid .tablefield {width: 655px; font-size: 145%;}
+.cabs-route-grid .tablefield td {padding-bottom: 10px;}
+
+.timetable-description {
+	font-size: 80%;
+	padding: 0;
+	margin-top: -105px;
+	margin-bottom: 100px;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+}
+
+/*** charter vehicle nodes ***/
+.vehicle-title {margin: 0px 10px 20px -21px;}
+
+.field-name-field-image-bus-int img {
+	width: 30%;
+	height: auto;
+}
+
+
+
+
+/**************************************************
+*** Specific Views
+**************************************************/
+
+/*** charter vehicle list page ***/
+.charter-fleet-view .views-row {min-height: 220px;}
+
+.charter-list-image {
+	width: 240px; 
+	margin: -15px 0 10px 10px;
+}
+
+
+
+
+/**************************************************
+*** Forms
+**************************************************/
+
+/* target specific fieldsets */
+#webform-component-1-contact-information,
+#webform-component-2-payment-information {
+	margin: 20px 0 50px 0;
+	float: left;	
+	width: 450px;
+}
+
+#webform-component-2-payment-information {
+	margin-left: 490px;
+	margin-top: -485px;
+}
+
+#webform-component-3-group-information,
+#webform-component-4-trip-information {clear: left;}
+
+
+
+

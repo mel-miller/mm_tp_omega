@@ -1,0 +1,489 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). Primarily for 720-grid layout */
+
+/**************************************************
+*** Header Section
+**************************************************/
+
+/* Navbar links */
+
+div#osu-Navbar {min-height: 2.2em;}
+
+div#osu-NavbarLinks {
+	display: block;
+	min-height: 2.2em;
+	overflow: hidden;
+}
+
+div#osu-NavbarLinks ul {
+	float: right;
+	font-size: 70%;
+	padding-right: 0.7em;
+}
+
+div#osu-NavbarLinks ul li {
+	float: left;
+	list-style-type: none;
+	font-size: 1.2em;
+	line-height: 2.7em;
+}
+
+div#osu-NavbarLinks ul li a {
+	color: #3d3d3d;
+	text-decoration: none;
+	padding: 0 0 0 1.2em;
+}
+
+div#osu-NavbarLinks ul li a:hover, 
+div#osu-NavbarLinks ul li a:active,
+div#osu-NavbarLinks ul li a:focus {
+	color: #000;
+	text-decoration: underline;
+	outline: none;
+}
+
+/*** Header ***/
+
+#zone-header-wrapper {background-image: url(images/tp_banner.png);}
+
+/*** logo ***/
+
+.logo-img {
+	width: 440px;
+	padding: 30px 0;
+}
+
+/*** Search block at top ***/
+#region-header-second {display: block;}
+
+.region-header-second-inner {
+  padding: 48px 8px;
+  float: right;
+}
+#search-block-form {
+  width: 190px;
+  float: right;
+  background: #fff;
+  border: none;
+  overflow: hidden;
+  -moz-box-shadow: 0px 2px 5px #c8c8c8 inset;
+  box-shadow: 0px 2px 5px #c8c8c8 inset;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#search-block-form .form-submit {
+  margin-right: 0;
+}
+#search-block-form .form-type-textfield {
+  padding: 8px;
+}
+#search-block-form .form-text {
+  font-size: 100%;
+  color: #aaa;
+  border: none;
+  background: none;
+  width: 120px;
+  margin-top: 1px;
+}
+.safari #search-block-form .form-text {
+  margin-top: 6px;
+}
+#search-block-form button:focus,
+button:active,
+input:focus,
+input:active,
+select:focus,
+select:active,
+textarea:focus,
+textarea:active {
+  -moz-box-shadow: none;
+  box-shadow: none;
+  z-index: none;
+}
+#edit-search-block-form--2 {
+  padding-left: 3px;
+  padding-top: 12px;
+}
+
+
+/*** main menu ***/
+#zone-menu-wrapper {
+  padding-top: 8px;
+  padding-bottom: 3px;
+  height: 22px;
+}
+
+#block-block-12 .ctools-jump-menu-select {display: none;}
+
+.menu-block-2 {display: block;}
+
+.menu-block-2 ul.menu {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+.menu-block-2 li {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 92%;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  padding: 0;
+  text-decoration: none;
+}
+.menu-block-2 li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0 3px 0 0;
+}
+.menu-block-2 li a.active {
+  color: #000;
+  background: #ededed url(images/button.png) repeat-x bottom;
+  padding: 11px 11px 7px 11px;
+  border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+}
+.menu-block-2 li a {
+  color: #fff;
+  background: none;
+  padding: 11px 11px 7px 11px;
+  border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;f
+}
+.menu-block-2 li a:hover {
+  color: #000;
+  background: #ffffff url(images/button.png) repeat-x bottom;
+  padding: 11px 11px 7px 11px;
+  border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  text-decoration: none;
+}
+
+
+/**************************************************
+*** Content Section
+**************************************************/
+/*** content ***/
+#zone-preface-wrapper,
+#zone-content-wrapper {background: #ccc;}
+
+#zone-content,
+#zone-preface {
+  background-position: center;
+  background-repeat: repeat-y;
+  background-image: url(images/bg-720.png);
+}
+
+.front #zone-content,
+.front #zone-preface,
+#zone-content.no-sidebars {background-image: url(images/bg-720-front.png);}
+
+.region-preface-first-inner {padding: 15px;}
+
+.region-content-inner {padding: 10px 10px 10px 20px;}
+
+/*** sidebar ***/
+#region-sidebar-second {background: none;}
+
+#region-sidebar-second h2 {
+  font-size: 170%;
+  line-height: 90%;
+}
+
+.region-sidebar-second-inner {
+	margin-right: -10px;
+	margin-left: 30px;
+}
+
+.region-sidebar-second-inner h2 {
+  text-align: left;
+  padding: 10px 5px 11px 15px;
+  margin: 10px -1px 15px 0;
+  float: right;
+  width: 109%;
+  -moz-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
+  -moz-box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+  box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+}
+
+.region-sidebar-second-inner ul li a {
+  color: #000;
+  background: none;
+  font-size: 92%;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  padding: 4px 0 4px 8px;
+  -moz-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
+}
+
+.region-sidebar-second-inner .menu-mlid-3719 a {margin-top: 84px;}
+.region-sidebar-second-inner .menu-mlid-1953 a {margin-top: 84px;}
+.region-sidebar-second-inner .menu-mlid-1917 a {margin-top: 84px;}
+.region-sidebar-second-inner .menu-mlid-1926 a {margin-top: 84px;}
+
+.region-sidebar-second-inner .menu-mlid-3973 a {margin-top: 64px;}
+.region-sidebar-second-inner .menu-mlid-2661 a {margin-top: 64px;}
+.region-sidebar-second-inner .menu-mlid-3892 a {margin-top: 64px;}
+
+.region-sidebar-second-inner ul li a:hover {
+  margin-right: -7px;
+  padding-right: 12px;
+  text-decoration: none;
+	-moz-box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+  box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+}
+
+.region-sidebar-second-inner ul li a.active {
+  margin-right: -7px;
+  padding-right: 12px;
+	-moz-box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+  box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.4);
+}
+
+.region-sidebar-second-inner .active-trail li.leaf a {
+  margin-right: -14px;
+  margin-left: 3px;
+  padding: 4px 23px 4px 8px;
+}
+
+.region-sidebar-second-inner ul li.collapsed {list-style-image: url('images/arrow-red-right.png');}
+.region-sidebar-second-inner ul li.expanded {list-style-image: url('images/arrow-red-down.png');}
+
+
+/**************************************************
+*** Front-page specific
+**************************************************/ 
+
+#region-sidebar-first {background: none;}
+.front .region-content-inner {padding: 0 0 10px 20px;}
+.front .region-sidebar-first-inner {padding: 0 5px 10px 0;}
+
+.block-views-quicklinks-block,
+.block-views-news-block {margin-left: 10px;}
+
+
+/*** Front Slideshow ***/
+#block-views-front-page-rotator-block img {
+  display: block;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.8);
+  box-shadow: 1px 2px 5px rgba(144, 144, 144, 0.8);
+}
+
+.flexslider {
+	margin: 0; 
+	background: none; 
+	border: none; 
+	position: relative; 
+	-webkit-border-radius: none; 
+	-moz-border-radius: none;
+	-o-border-radius: none; 
+	border-radius: none; 
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none; 
+	box-shadow: none; 
+	zoom: 1;
+}
+
+.color-white {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(10, 10, 10, 1);
+}
+
+.color-black {
+  color: #000;
+  text-shadow: 1px 1px 2px rgba(200, 200, 200, 0.5);
+}
+
+.slideshow-headline {
+  font-size: 250%;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.slideshow-caption {
+  font-size: 130%;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.position-bottom-left {
+	text-align: left;
+	margin-top: -75px;
+	margin-left: 10px;
+}
+
+.position-cap-bottom-left {
+ 	text-align: left;
+ 	margin-left: 10px;
+}
+
+.position-bottom-right {
+	text-align: right;
+	margin-top: -75px;
+	 margin-right: 10px;
+}
+
+.position-cap-bottom-right {
+	text-align: right;
+	margin-right: 10px;
+}
+
+/**************************************************
+*** Footer Section
+**************************************************/
+
+#zone-footer-wrapper {
+  color: #ccc;
+  background: #111;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 4px #bb0000 solid;
+  border-bottom: 1px #555 solid;
+background: #262626; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2MjYyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYzBjMGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #262626 0%, #0c0c0c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#262626), color-stop(100%,#0c0c0c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #262626 0%,#0c0c0c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #262626 0%,#0c0c0c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #262626 0%,#0c0c0c 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #262626 0%,#0c0c0c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#0c0c0c',GradientType=0 ); /* IE6-8 */
+}
+
+#zone-footer .region-footer-first-inner {padding: 5px 10px 0 0px;}
+
+#zone-footer .region-footer-second-inner {padding: 5px 10px 0 0;}
+
+#zone-footer .region-footer-third-inner {padding: 5px 0 0 10px;}
+
+#zone-footer .region-footer-fourth-inner {padding: 5px 0 0 0;}
+
+#zone-footer p {font-size: 88%;}
+
+#zone-footer .region-footer-second-inner p {line-height: 70%;}
+
+#zone-footer h2 {font-size: 150%;}
+
+#zone-footer ul.menu li.leaf {font-size: 100%;}
+
+#block-block-13 {
+	padding-top: 70px;
+	background: url('images/trip_web-720.png') no-repeat -1px -1px;
+		padding-left: 5px;
+}
+
+#zone-footer h4 {font-size: 115%;}
+
+
+/**************************************************
+*** Content Types
+**************************************************/
+
+/*** General ***/
+.revised-date {width: 150px;}
+
+/*** section home page and basic page ***/
+.feature-block {
+  float: right;
+  width: 36%;
+  margin: 0 0 20px 30px;
+}
+
+/***cabs route page ***/
+.cabs-route-grid-header table {width: 490px; font-size: 105%;}
+.cabs-route-grid .tablefield {width: 490px; font-size: 120%;}
+.timetable-description {padding: 0px 10px 0px 240px;}
+
+/*** charter vehicle nodes ***/
+.vehicle-title {
+	float: left;
+	margin: 0px 10px 20px -16px;
+	padding: 10px 30px 10px 21px;
+	-moz-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;	
+}
+
+.vehicle-title h1 {text-align: right;}
+
+.vehicle-info-right {float: right; width: 60%; margin-bottom: 30px;}
+
+.vehicle-info-right img {margin: -50px 0 20px 0;}
+
+.field-name-field-rate-table table {margin: 10px 0 0 0;}
+
+.vehicle-info-left {float: left; width: 35%;}
+
+.field-name-field-image-bus-int {margin: 10 -10px;}
+
+.field-name-field-image-bus-int img {
+	width: 46%;
+	height: auto;
+}
+
+
+/**************************************************
+*** Specific Views
+**************************************************/
+
+/*** news archive and taxonomy term views ***/
+.view-news-archive li {margin-right: 6px;}
+
+.news-pages h1 {margin: 10px 0 10px 5px;}
+
+
+
+
+/*** charter vehicle list page ***/
+.charter-fleet-view .views-row {min-height: 200px;}
+
+.charter-list-image {
+	float: right; 
+	width: 200px; 
+	height: auto;
+	margin: -15px 0 10px 10px;
+}
+
+
+/***staff directory ***/
+.directory-item li {
+  margin: 0 0 25px 0;
+  display: block;
+  width: 99%;
+  min-height: 200px;
+}
+
+
+
+/**************************************************
+*** Forms
+**************************************************/
+
+/*** charter form ***/
+.page-node-395 .region-content-inner {padding: 0 20px;}
+
+
+/* vehicle radio labels */
+.form-item-submitted-4-trip-information-vehicle-type-preferred {float: left;}
+
+
+
+/**************************************************
+*** search form and results
+**************************************************/
+.search-advanced {
+  float: left;
+  margin: -70px 10px 30px 10px;
+}
+.results-box {margin:20px 30px 20px 320px;}
+.no-results {margin: 0 30px 0 320px;}
+
+
